@@ -1,0 +1,13 @@
+[package]
+name = "rust-cli-tools"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "recho"
+path = "src/recho.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+getopts = "0.2.21"
